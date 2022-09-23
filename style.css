@@ -1,0 +1,173 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0; margin: 0;
+	box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+a {
+	text-decoration: none;
+}
+.container {
+    height: 600px;    
+	width: 100%;
+	display: flex;
+    /* flex-wrap: wrap; */
+	align-items: center;
+	justify-content: center;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+p {
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 200;
+	letter-spacing: 0.05rem;
+}
+.section-title {
+	font-size: 4rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	text-align: center;
+}
+
+
+.img1{
+    padding-bottom: 120px;
+}
+.heading{
+    font-size: 40px;
+    padding-top: 144px;
+    color: orange;
+}
+p{
+    letter-spacing: 1;
+    font-size: 20px;
+}
+.img2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.img3{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.img4{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+
+.lastcontainer{
+    height: 600px; 
+    background: white;   
+	/* width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center; */
+}
+
+
+.lastheading{
+    text-align: center;
+    color: orange;
+    padding-top: 40px;
+    font-size: 40px;
+}
+.card{
+    height: 350px;
+    width: 450px;
+    margin: 20px;
+    box-shadow: 0 3px 5px #000;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+  
+.social{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.social li{
+display: inline-block;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+span{
+    font-size: 16px;
+ 
+}
+.social li a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-right: 5px;
+
+}
+
+
+.content{
+    float: left;
+     width: 50%;
+}
+.col2{
+    float: right; 
+    width: 65%;
+}
+
+.container .content .button {
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+
+.container .content .button a{
+background-color: orange;
+padding: 12px 40px;
+text-decoration: none;
+color: #fff;
+font-size: 25px;
+letter-spacing: 1.5px;
+
+}
+
+
+.heading1{
+    font-size: 64px;
+    padding-top: 120px;
+    color: orange;
+}
+
+ 
+.container .content .button a:hover{
+background-color: rgb(255, 255, 255);
+color: orange;
+}
+
+
